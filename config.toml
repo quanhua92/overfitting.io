@@ -4,11 +4,6 @@ title = "OverFitting.IO"
 
 enableRobotsTXT = "true"
 
-[sitemap]
-  changefreq = "monthly"
-  filename = "sitemap.xml"
-  priority = 0.5
-  
 # Theme
 theme = "hugo-classic"
 
@@ -53,3 +48,9 @@ footnotereturnlinkcontents = "↩"
     description = "My evergreen knowledge tree - My Second Brain"
     footer = "2020 | [Github](https://github.com/quanhua92/overfitting.io)"
     custom_css = ["css/theme-override.css"]
+
+
+[sitemap]
+    changefreq = "daily"
+    filename = "sitemap.xml"
+    priority = 0.5
