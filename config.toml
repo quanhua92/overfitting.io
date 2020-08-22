@@ -2,6 +2,8 @@ baseURL = "https://overfitting.io/"
 languageCode = "en-us"
 title = "OverFitting.IO"
 
+enableRobotsTXT = "true"
+
 # Theme
 theme = "hugo-classic"
 
