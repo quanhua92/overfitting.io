@@ -1,0 +1,48 @@
+baseURL = "https://overfitting.io/"
+languageCode = "en-us"
+title = "OverFitting.IO"
+
+# Theme
+theme = "hugo-classic"
+
+googleAnalytics = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+enableEmoji = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "second_brain"
+    url = "/second_brain/"
+    weight = 1
+
+[[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+
+[[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 3
+
+[[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 4
+
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 5
+
+[[menu.feed]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = "My evergreen knowledge tree - My Second Brain"
+    footer = "2020 | [Github](https://github.com/quanhua92/overfitting.io)"
+    custom_css = ["css/theme-override.css"]
