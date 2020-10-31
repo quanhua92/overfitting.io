@@ -7,6 +7,9 @@ enableRobotsTXT = "true"
 # Theme
 theme = "hugo-classic"
 
+# Comments
+disqusShortname = "overfitting-io"
+
 googleAnalytics = ""
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 enableEmoji = true

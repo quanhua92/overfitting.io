@@ -1,0 +1,13 @@
+{{if not .Params.noComment}}
+  {{ template "_internal/disqus.html" . }}
+{{end}}
+
+<footer>
+  {{ partial "foot_custom.html" . }}
+  {{ with .Site.Params.footer }}
+  <hr/>
+  {{ . | markdownify }}
+  {{ end }}
+</footer>
+</body>
+</html>
