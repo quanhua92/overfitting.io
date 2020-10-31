@@ -30,6 +30,11 @@ footnotereturnlinkcontents = "↩"
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
+    weight = 4
+
+[[menu.main]]
+    name = "Upcoming"
+    url = "/upcoming/"
     weight = 5
 
 [[menu.feed]]
