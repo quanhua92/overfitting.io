@@ -1,0 +1,10 @@
+{{ $scr := .Scratch }}
+{{ $scr.Set "related_enabled" true }}
+{{ if isset .Params "related" }}
+  {{ $scr.Set "related_enabled" .Params.related }}
+{{ else if isset site.Params "related" }}
+  {{ $scr.Set "related_enabled" site.Params.related }}
+{{ end }}
+{{ if ($scr.Get "related_enabled") }}
+{{ partial "related.html" . }}
+{{ end }}

@@ -1,0 +1,10 @@
+{{ $scr := .Scratch }}
+{{ $scr.Set "math_enabled" false }}
+{{ if isset .Params "math" }}
+  {{ $scr.Set "math_enabled" .Params.math }}
+{{ else if isset site.Params "math" }}
+  {{ $scr.Set "math_enabled" site.Params.math }}
+{{ end }}
+{{ if ($scr.Get "math_enabled") }}
+{{ partial "mathjax_support.html" . }}
+{{ end }}

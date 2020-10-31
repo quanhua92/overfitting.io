@@ -1,3 +1,5 @@
+{{ partial "enable_related.html" . }}
+
 {{if not .Params.noComment}}
   {{ template "_internal/disqus.html" . }}
 {{end}}

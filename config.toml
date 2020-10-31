@@ -22,20 +22,26 @@ footnotereturnlinkcontents = "↩"
     name = "Posts"
     url = "/posts/"
     weight = 2
+
+[[menu.main]]
+    name = "Notes"
+    url = "/notes/"
+    weight = 3
+
 [[menu.main]]
     name = "Categories"
     url = "/categories/"
-    weight = 3
+    weight = 4
 
 [[menu.main]]
     name = "Tags"
     url = "/tags/"
-    weight = 4
+    weight = 5
 
 [[menu.main]]
     name = "Upcoming"
     url = "/upcoming/"
-    weight = 5
+    weight = 7
 
 [[menu.feed]]
     name = "Subscribe"

@@ -1,6 +1,5 @@
 ---
 title: Home
-highlight: false
 noComment: true
 ---
 
